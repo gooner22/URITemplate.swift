@@ -4,7 +4,7 @@ import PathKit
 import URITemplate
 
 
-let testCases: (ContextType -> Void) = {
+let testCases: ((ContextType) -> Void) = {
   let files = [
     "extended-tests",
     "spec-examples-by-section",
